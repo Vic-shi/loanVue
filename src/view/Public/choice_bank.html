@@ -1,0 +1,31 @@
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/wechat/wtpl/css/choice_bank.css?v=1.1">
+<div style="display:none;" id="bank_list">
+    <!--<div class="search">-->
+        <!--<div class="search-all">-->
+            <!--<div class="search-ico"></div>-->
+            <!--<div class="search-box"><input type="text" placeholder="输入关键词搜索"></div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <div class="bank-list" style="overflow-y:auto;height:100vw;">
+        <foreach name="_bank_list" item="bank_info">
+        <a href="javascript:;" class="bank-list-detail js-bank-select">
+            <?php
+                $ico_file_path = "__PUBLIC__/wechat/wtpl/images/bank/".strtolower($bank_info["bank_code"]).".png";
+                $phy_file_path = $_SERVER['DOCUMENT_ROOT'].$ico_file_path;
+                if(file_exists($phy_file_path)){
+            ?>
+            <div class="bank-list-ico"><img src="{$ico_file_path}"></div>
+            <?php } ?>
+            <div class="bank-list-name">{$bank_info.short_name}</div>
+        </a>
+        </foreach>
+    </div>
+</div>
+<script type="text/javascript">
+$(".js-bank-select").live("click",function(){
+    $("input[name='bank_name']").val($(this).find(".bank-list-name").html());
+    $(".js-bank-info").html($(this).html());;
+    layer.closeAll();
+});
+</script>

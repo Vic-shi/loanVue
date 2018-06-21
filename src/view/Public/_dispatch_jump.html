@@ -1,0 +1,41 @@
+<wx_include file="Public:_header"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/wechat/wtpl/css/time.css">
+<div class="main">
+    <div class="nav">
+        <!--<a href="javascript:;" class="nav-arrow"><img src="__PUBLIC__/wechat/wtpl/images/nav-arrow.png"></a>-->
+        <div class="nav-title">操作提示</div>
+    </div>
+
+    <?php if(isset($message)) {?>
+        <button type="button" name="cd" class="success" disabled>3</button>
+        <div class="time-txt1"><?php echo($message); ?></div>
+        <div class="time-txt2">页面即将跳转，请耐心等待...</div>
+        <div class="time-img"><img src="__PUBLIC__/wechat/wtpl/images/wait.png"></div>
+    <?php }else{?>
+        <button type="button" name="cd" class="error" disabled>3</button>
+        <div class="time-txt1"><?php echo($error); ?></div>
+        <div class="time-txt2">页面即将跳转，请耐心等待...</div>
+        <div class="time-img"><img src="__PUBLIC__/wechat/wtpl/images/wait.png"></div>
+    <?php }?>
+    <input type="hidden" name="jumpurl" value="{$jumpUrl}"/>
+</div>
+
+<script type="text/javascript">
+    var i=3;
+    var timehwnd=setInterval("Countdown()",1000);
+    function Countdown(){
+        i--;
+        if(i == 0){
+            clearInterval(timehwnd);
+            var url = $("input[name='jumpurl']").val();
+            if(url == ''){
+                window.location.href = history.back(-1);
+            }else{
+                window.location.href = url;
+            }
+        }else{
+            $("button[name='cd']").html(""+i+"");
+        }
+    }
+</script>
+<wx_include file="Public:_footer"/>

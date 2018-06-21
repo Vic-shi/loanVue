@@ -1,0 +1,29 @@
+.fotter{
+	height:50px;
+	width:100%;
+	background: #FFFFFF;
+	border: 0 solid #EAEAEA;
+	position: fixed;
+    bottom: 0;
+	z-index: 999;
+}
+.fotter>div>a>img{
+	width:22px;
+}
+.fotter>div{
+	width:33%;
+	float:left;
+	text-align:center;
+	padding-top: 1.2%;
+}
+.fotter>div>a>span{
+	display:block;
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #999999;
+	letter-spacing: 0.25px;
+	line-height: 10px;
+}
+.yellowSpan{
+	color: #FECE15 !important;
+}
