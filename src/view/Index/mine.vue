@@ -42,7 +42,7 @@
 </div>
 <div class = "fotter">
     <div>
-        <router-link to="/index">
+        <router-link to="/">
             <img src = "static/image/index/tab_icon_home.png">
             <span>首页</span>
         </router-link>

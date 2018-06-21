@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import index from '@/view/Index/index'
 import Loan from '@/view/Index/Loan'
 import mine from '@/view/Index/mine'
+import elitesLoan from '@/view/loan/elitesLoan'
 
 Vue.use(Router)
 
@@ -11,11 +11,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
-    {
-      path: '/index',
       name: 'index',
       component: index
     },
@@ -28,6 +23,11 @@ export default new Router({
       path: '/mine',
       name: 'mine',
       component: mine
+    },
+    {
+      path: '/elitesLoan',
+      name: 'elitesLoan',
+      component: elitesLoan
     }
   ]
 })

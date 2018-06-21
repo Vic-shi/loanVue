@@ -52,7 +52,7 @@
         <img class = "hotRecommendImgTopRight" src = "static/image/index/home_title_right.png">
     </div>
     <div class = "imgDiv">
-        <div class = "indexImg" onClick="location.href='{:U(\'loan/elitesLoan\')}'">
+        <div class = "indexImg" onClick="location.href='/#/elitesLoan'">
             <img src = "static/image/index/product_icon_jyfrd.png">
             <span class = "imgSpan1">精英法人贷</span>
             <span class = "imgSpan2">20-100万</span>
@@ -76,7 +76,7 @@
 </div>
 <div class = "fotter">
     <div>
-        <router-link to="/index">
+        <router-link to="/">
             <img src = "static/image/index/tab_icon_home_pre.png">
             <span class = "yellowSpan">首页</span>
         </router-link>
@@ -88,7 +88,7 @@
         </router-link>
     </div>
     <div>
-        <router-link to="/Loan">
+        <router-link to="/mine">
             <img src = "static/image/index/tab_icon_mine.png">
             <span>我的</span>
         </router-link>
