@@ -74,7 +74,7 @@
         <img class = "bottomImg" src = "static/image/index/home_prbg.png">
     </div>
 </div>
-<input style = "position: fixed;top: 100px;z-index: 999;" type = "text" v-model = "sss">
+<input @click="aaa()" class = "wshishi" style = "position: fixed;top: 100px;z-index: 999;" type = "text" v-model = "sss">
 <div class = "fotter">
     <div>
         <router-link to="/">
@@ -121,11 +121,14 @@ export default {
     }
   },
   methods: {
-
+      aaa(){
+          console.log($(".wshishi")[0]);
+      }
   },
   watch:{
       sss:function(val){
           console.log("11");
+          $(".wshishi")[0]
       }
   },
   mounted(){

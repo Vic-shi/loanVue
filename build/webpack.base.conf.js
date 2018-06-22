@@ -18,7 +18,7 @@ const createLintingRule = () => ({
     emitWarning: !config.dev.showEslintErrorsInOverlay
   }
 })
-
+var webpack = require('webpack')
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
@@ -36,8 +36,15 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'jquery': 'jquery' 
     }
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+    })
+ ],
   module: {
     rules: [
       ...(config.dev.useEslint ? [createLintingRule()] : []),
