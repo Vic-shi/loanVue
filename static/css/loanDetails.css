@@ -1,0 +1,10 @@
+.loanDeatilsTop{
+	background-image:url('../image/loan/apply_amount_bg.png');
+	background-size:100%;
+	width:87.3vw;
+	height:32vw;
+	background-repeat:no-repeat;
+}
+.loanDeatilsTop>span{
+	display:block;
+}

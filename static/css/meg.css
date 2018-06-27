@@ -1,0 +1,57 @@
+.successTop >img{
+	width:144px;
+}
+.successTop>span{
+	display:block;
+	font-family: PingFangSC-Medium;
+	font-size: 24px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 30px;
+	margin-top:5vh;
+}
+.successTop>div{
+	padding: 0 12vw 0 12vw;
+	text-align:left;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #666666;
+	letter-spacing: 0;
+	text-align: justify;
+	line-height: 25px;
+	margin-top:3vh;
+}
+.successTop{
+	text-align:center;
+	margin-top:7vh;
+}
+.yellowBorderButton{
+	margin-left:8.68%;
+	width:82.7%;
+	height:44px;
+	background: #FFFFFF;
+	border: 1px solid #FECE15;
+	border-radius: 100px;
+}
+.yellowButton{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	border-radius: 40px;
+	width:82.7%;
+	height:44px;
+	margin-left:8.68%;
+	margin-bottom:4vw;
+}
+.allButton{
+	width:100vw;
+	margin-top: 34px;
+    position: absolute;
+    bottom: 3vh;
+}
+.allButton>div>span{
+	display:block;
+	text-align:center;
+	margin:3vw 0 3vw 0;
+}
+.allButton>div{
+	margin-bottom:10vw;
+}

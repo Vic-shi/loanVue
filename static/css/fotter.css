@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'DINAlternate';   /*字体名称*/
+  src: url('../Typeface/DIN-RegularAlternate/DIN-RegularAlternate-2.otf');       /*字体源文件*/
+}
 .fotter{
 	height:50px;
 	width:100%;
@@ -6,6 +10,7 @@
 	position: fixed;
     bottom: 0;
 	z-index: 999;
+	margin-top: 50px;
 }
 .fotter>div>a>img{
 	width:22px;
@@ -26,4 +31,227 @@
 }
 .yellowSpan{
 	color: #FECE15 !important;
+}
+.mui-popup-in{
+	z-index:99999;
+}
+.mui-popup-backdrop{
+	z-index:9999;
+}
+.alertSpan{
+	font-family: PingFangSC-Medium;
+	font-size: 13px;
+	color: #343434;
+	letter-spacing: 0;
+	line-height: 13px;
+	display:block;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.alertDiv{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #343434;
+	letter-spacing: 0;
+	line-height: 21px;
+	text-align:left;
+}
+.alertDivForApply{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #343434;
+	letter-spacing: 0;
+	line-height: 22px;
+	text-align:left;
+	margin-top: 21px;
+    margin-bottom: 10px;
+}
+.mui-popup{
+	width:73.3%;
+}
+.alertHtml{
+	text-align:center;width:93vw;border-radius: 12px;background: #FFFFFF;height: 110vw;
+}
+.alertHtmlHeader{
+	height:24vw;border-bottom:1px solid #ccc;
+}
+.alertHtmlHeader>div{
+	width: 45vw;float: left;height:24vw;
+}
+.alertHtmlHeader1{
+	border-right:1px solid #ccc;
+}
+.alertHtmlHeader>div>span{
+	display: block;
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0;
+	line-height: 13px;
+	padding-top:5vw;
+}
+.alertHtmlMoney{
+	font-family: DINAlternate !important;
+	font-size: 18px !important;
+	color: #222222 !important;
+	letter-spacing: 0.8px !important;
+	line-height: 18px !important;
+	font-weight:bold;
+	padding-top:3vw !important;
+}
+.alertHtmlSpan{
+	display:inline-block;text-align:left;
+	font-family: PingFangSC-Semibold;
+	font-size: 18px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 18px;
+	float:left;
+	margin-left:5vw;
+	margin-top:9.8vw;
+	margin-bottom:2.8vw;
+	font-weight:bold;
+}
+.alertTable{
+	width:93vw;
+}
+.alertTable>tbody>tr>th{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 13px;
+	height: 16vw;
+}
+.alertTable>tbody>tr>td{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 13px;
+	height:15vw;
+}
+.alertHtml>div>img{
+	width: 36px;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.layui-m-layerchild{
+	border-radius:12px !important;
+}
+.headerImg1{
+	width:11px;
+	float:left;
+}
+.headerImg2{
+	width:20px;
+	float:right;
+}
+.header{
+	font-family: PingFangSC-Semibold;
+	font-size: 17px;
+	color: #333333;
+	letter-spacing: -0.41px;
+	text-align: center;
+	height:48px;
+	background: #FFFFFF;
+	box-shadow: 0 0 5px 0 rgba(223,223,223,0.50);
+	padding:12px;
+}
+.layui-m-layerchild{
+	background-color:unset !important;
+}
+.swiperDiv1{
+	background-image:url('../image/user/card_bg.png') !important;
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:83.6vw;
+	height:55.2vw;
+	padding: 5vw;
+	position:relative;
+	margin-left: 3.2vw;
+}
+.swiperDiv1>div>img{
+	width:20px;
+	float:left;
+}
+.swiperDiv1Div1{
+	color:#ffffff;
+	display: inline-block;
+}
+.swiperDiv1Div1>span{
+	display:block;
+	float:left;
+	margin-left:2vw;
+}
+.swiperDiv1Div2{
+	color:#ffffff;
+	margin-top:8vw;
+}
+.swiperDiv1Div2>span{
+	display:block;
+}
+.swiperDiv1Div3{
+	color:#ffffff;
+	position:absolute;
+	bottom:9vw;
+	width: 80%;
+}
+.swiperDiv1Div3Right{
+	float:right;
+}
+.repaymentBigBlankDianDiv{
+	width:140px;
+	height: 15px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 18px;
+	padding: 17px;
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	box-shadow: 0 10px 11px -7px rgba(254,206,21,0.83);
+	border-radius: 100px;
+	position:absolute;
+	right: 0;
+}
+.layui-m-layerbtn{
+	width:140px !important;
+	height: 47px !important;
+	font-family: PingFangSC-Regular;
+	font-size: 18px !important;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 18px;
+	padding: 0;
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	box-shadow: 0 10px 11px -7px rgba(254,206,21,0.83);
+	border-radius: 100px !important;
+	position:absolute;
+	right: 3.2vw;
+	float:right !important;
+}
+.repaymentBigBlackDian{
+	opacity: 0.9;
+	background: #222222;
+	height:14px;
+	width:14px;
+    display: block;
+    border-radius: 100px;
+	float: right;
+	margin-top:2px;
+}
+.layui-m-layerchild{
+	width:100% !important;
+}
+.layui-m-layercont{
+	padding:0 !important;
+	text-align:left !important;
 }

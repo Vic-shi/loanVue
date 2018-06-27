@@ -1,0 +1,53 @@
+.personalValue>div>input{
+	outline:none;
+	border:none;
+	font-size: 18px;
+	width: 60%;
+}
+.personalValue{
+	background:#Ffffff;
+	width:100vw;	
+	margin-top:3.6vw;
+}
+.personalValue>div{
+	border-bottom:1px solid #EAEAEA;
+	height:18.6vw;
+	padding-top: 6vw;
+    padding-left: 3vw;
+}
+.personalValue>div>label{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+.blankImg{
+	width:24px;
+}
+.yellowButton{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	border-radius: 40px;
+	width:82.7%;
+	height:44px;
+	margin-left:8.68%;
+	margin-bottom: 20px;
+	position: absolute;
+    bottom: 0;
+}
+.personalBottom{
+	margin-left:3.2vw;
+}
+.personalBottomImg2{
+	width:93.6vw;
+}
+.personalBottomImg1{
+	width:15px;
+}
+.personalBottom>div{
+	margin-top:3.2vw;
+	margin-bottom:2vw;
+}
+.mui-table-view{
+	margin:0 !important;
+}

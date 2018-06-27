@@ -7,13 +7,19 @@ import axios from 'axios'
 import qs from 'qs'
 import $ from 'jquery'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+// import layer from 'vue-layer'
+// Vue.prototype.$layer = layer(Vue)
+import 'vue-layer-mobile/need/layer.css'
+import layer from 'vue-layer-mobile'
+Vue.use(layer)
+
 Vue.use(VueAwesomeSwiper)
-axios.defaults.baseURL = ''
+axios.defaults.baseURL = '/api'
 axios.defaults.transformRequest = [function (data) {
   return qs.stringify(data)
 }]
 Vue.prototype.$axios = axios
-Vue.prototype.HOST = ''
+Vue.prototype.HOST = '/api'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

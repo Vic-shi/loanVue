@@ -1,0 +1,153 @@
+.header{
+    height: 16vh;
+}
+.header>span{
+    font-family: PingFangSC-Semibold;
+    font-size: 34px;
+    color: #000000;
+    letter-spacing: 0.41px;
+    line-height: 34px;
+    text-align: left !important;
+    display: block;
+    margin-top: 5vh;
+}
+.mui-table-view-cell{
+	position:relative;
+}
+.mui-table-view-cell>label{
+    position: absolute;
+    right: 10vw;
+    top: 3vw;
+	font-family: PingFangSC-Regular;
+	font-size: 15px;
+	color: #666666;
+	letter-spacing: 0;
+	line-height: 15px;
+}
+.mui-table-view-cell>a{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+.aboutUsValue{
+	margin-top:1.8vh;
+	background-color:#ffffff;
+}
+.aboutUsValue>div>img{
+	width:6px;
+	float:right;
+}
+.aboutUsValue>div{
+	height:18.6vw;
+	padding: 7vw 3.2vw 0vw 3.2vw;
+}
+.aboutUsValue>div>span{
+	display: block;
+    float: right;
+    margin-right: 2vw;
+    margin-top: -0.5vw;
+	font-family: PingFangSC-Regular;
+	font-size: 15px;
+	color: #666666;
+	letter-spacing: 0;
+	line-height: 15px;
+}
+.aboutUsValue>div>a{
+	float:right;
+	margin-top: -0.5vw;
+	margin-right: 2vw;
+	font-family: PingFangSC-Regular;
+	font-size: 15px;
+	color: #70A5FF;
+	letter-spacing: 0;
+	line-height: 15px;
+}
+.aboutUsValue>div>label{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+.aboutUsValueBorder{
+	border-bottom:1px solid #EAEAEA;
+}
+.headerImg1{
+	width:11px;
+	float:left;
+}
+.headerImg2{
+	width:20px;
+	float:right;
+}
+.headerCommon{
+	font-family: PingFangSC-Semibold;
+	font-size: 17px;
+	color: #333333;
+	letter-spacing: -0.41px;
+	text-align: center;
+	height:48px;
+	background: #FFFFFF;
+	box-shadow: 0 0 5px 0 rgba(223,223,223,0.50);
+	padding:12px;
+}
+.logoutLabel{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #F55329 !important;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+.yellowButton{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	border-radius: 40px;
+	width:82.7%;
+	height:44px;
+	margin-left:8.68%;
+	margin-bottom: 20px;
+}
+.allButton{
+	width:100vw;
+	padding-top: 20px;
+	position: absolute;
+    bottom: 0;
+    background-color: #f6f6f6;
+}
+.suggestValue{
+	font-family: PingFangSC-Semibold;
+	font-size: 18px;
+	color: #333333;
+	letter-spacing: -0.43px;
+	text-align: center;
+	line-height: 18px;
+}
+.suggestValue>h4{
+	padding:4vh 0 4vh 0;
+}
+.suggestBackgroundImg{
+	background-image:url('../image/index/Suggest_bg.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:89.3vw;
+	height:48.2vh;
+	border: none;
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #AAAAAA;
+    letter-spacing: 0.5px;
+    line-height: 11vw;
+    padding-top: 9vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+.suggestWord{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #AAAAAA;
+	letter-spacing: 0;
+	line-height: 22px;
+	padding:0 12vw 0 12vw;
+	text-align:left;
+}

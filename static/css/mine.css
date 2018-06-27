@@ -83,6 +83,10 @@
 .mineCentralDiv1{
 	border-right: 1px solid #EAEAEA;
 }
+.mineCentralBottom{
+	height:41.6vw;
+	margin-bottom: 60px;
+}
 .mineCentralBottom>div>img{
 	width:24px;
 	float: left;
@@ -105,4 +109,12 @@
 .Icon_list{
 	width:8px !important;
 	float: right !important;
+}
+.loginOrRegister{
+	font-family: PingFangSC-Medium;
+	font-size: 20px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 20px;
+	margin-top: 34.5px;
 }

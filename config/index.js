@@ -10,11 +10,18 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
-
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    proxyTable: {
+      '/api': {
+        target: 'http://wzbhc.s1.natapp.cc', //设置调用接口域名和端口号别忘了加http
+        changeOrigin: true,
+        pathRewrite: { 
+          '^/api': '' //路径重写 
+          } 
+    }
+    },
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,
