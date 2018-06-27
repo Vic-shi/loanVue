@@ -22,6 +22,73 @@
             </div>
         </div>
     </div>
+    <div>
+        <div class = "elitesLoanDiv">
+            <span class = "elitesLoanYellowSpan"></span>
+            <span class = "elitesLoanLabel">申请条件</span>
+            <img @click="alert()" src = "static/image/loan/product_notice.png">
+        </div>
+        <div class="elitesLoanDivBorder">
+            <span>1.&nbsp;&nbsp;&nbsp;年龄在23-60周岁之间</span>
+            <span>2.&nbsp;&nbsp;&nbsp;企业经营场地在<a class = "yellowColor">业务区域</a>,且经营满一年。</span>
+            <span>3.&nbsp;&nbsp;&nbsp;企业为借款单位,法人及其配偶作为共同借款人。</span>
+        </div>
+         <ul class="mui-table-view"> 
+            <li class="mui-table-view-cell mui-collapse">
+                <a class="mui-navigate-right" href="#">需要准备的材料及详情</a>
+                <div class="mui-collapse-content">
+                    <div class = "elitesLoanDiv2">
+                        <span class = "elitesLoanYellowSpan"></span>
+                        <span class = "elitesLoanLabel">产品详情</span>
+                    </div>
+                    <div class="elitesLoanDivBorder elitesLoanDivBorder2">
+                        <span>1.&nbsp;&nbsp;&nbsp;支持提前还款及提前结清贷款</span>
+                        <span>2.&nbsp;&nbsp;&nbsp;还款方式:&nbsp;&nbsp;<a>等额本息</a></span>
+                        <span>3.&nbsp;&nbsp;&nbsp;借款金额:&nbsp;&nbsp;<a>10-100万</a></span>
+                        <span>4.&nbsp;&nbsp;&nbsp;借款期限:&nbsp;&nbsp;<a>6-12个月</a></span>
+                    </div>
+                </div>
+                <div class="mui-collapse-content oneBorderBottom">
+                    <div class = "oneBorderBottomLi1">
+                        <li>放款时间</li>
+                        <li>参考年化</li>
+                        <li>参考通过率</li>                        
+                    </div>
+                    <div class = "oneBorderBottomLi2">
+                        <li>3天</li>
+                        <li>8.5%</li>
+                        <li>70%</li>                        
+                    </div>
+                </div>
+                <div class="mui-collapse-content oneBorderBottom">
+                    <div class = "elitesLoanDiv2">
+                        <span class = "elitesLoanYellowSpan"></span>
+                        <span class = "elitesLoanLabel">所需材料</span>
+                    </div>
+                    <div class ="material">
+                        <div>
+                            <span>1.&nbsp;&nbsp;&nbsp;征信报告</span>
+                            <span>5.&nbsp;&nbsp;&nbsp;营业执照</span>
+                        </div>
+                        <div>
+                            <span>2.&nbsp;&nbsp;&nbsp;身份证明</span>
+                            <span>6.&nbsp;&nbsp;&nbsp;资产证明</span>
+                        </div>
+                        <div>
+                            <span>3.&nbsp;&nbsp;&nbsp;户籍证明</span>
+                            <span>7.&nbsp;&nbsp;&nbsp;开户资料</span>
+                        </div>
+                        <div>
+                            <span>4.&nbsp;&nbsp;&nbsp;婚姻证明</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+        <div>
+            <input onClick="location.href='/#/apply'" class = "yellowButton" type = "button" value = "去申请"/>
+        </div>
 </div>
 </template>
 <script>
@@ -32,6 +99,11 @@ export default {
     }
   },
   methods: {
+      alert(){
+        var mesaage = '<span class = "alertSpan">宁波市</span><div class = "alertDiv">鄞州区、海曙区、江北区、北仑区、镇海区、余姚市、慈溪市、奉化市、宁海县、象山县</div><span class = "alertSpan">绍兴市</span><span class = "alertSpan">台州市</span>';
+        mui.alert(mesaage, '业务区域', function() {  
+        },"div");  
+      }
   },
   created(){
 
@@ -39,80 +111,5 @@ export default {
 }
 </script>
 <style rel="stylesheet/css" scoped>
-.elitesLoanHeader>img{
-	width:100%;
-}
-.elitesLoanHeaderTop>span{
-	display:block;
-}
-.elitesLoanHeaderTop{
-	position:absolute;
-	top: 11%;
-    left: 3.2%;
-	width: 93.6%;
-}
-.elitesLoanHeaderTopSpan1{
-	font-family: PingFangSC-Semibold;
-	font-size: 36px;
-	color: #FFFFFF;
-	letter-spacing: 0;
-	line-height: 36px;
-}
-.elitesLoanHeaderTopSpan2{
-	font-family: PingFangSC-Regular;
-	font-size: 13px;
-	color: #FFFFFF;
-	letter-spacing: 0;
-	line-height: 13px;
-	margin-top: 20px;
-}
-.backImg{
-   width:11px !important;
-   position:absolute;
-   top:3.2%;
-   z-index:999;
-   left:3.2%;
-}
-.elitesLoanHeaderTopDiv{
-	text-align:center;
-	margin-top: 12%;
-	background: #FFFFFF;
-	box-shadow: 0 10px 10px -10px #DDDDDD;
-	border-radius: 12px;
-	width:100%;
-	height: 82px;
-	padding-top: 20px;
-}
-.elitesLoanHeaderTopDiv>div{
-	display:inline-block;
-	width: 100%;
-}
-.elitesLoanHeaderTopDiv>div>li{
-	float:left;
-	list-style:none;
-	width:33.3%;
-}
-.elitesLoanHeaderTopLi1>li:before {
-    content: "";
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: rgb(0,0,0,0.5);
-    border-radius: 50%;
-	margin-right: 10px;
-}
-.elitesLoanHeaderTopLi1{
-	font-family: PingFangSC-Thin;
-	font-size: 12px;
-	color: #000000;
-	letter-spacing: 0;
-	line-height: 12px;
-}
-.elitesLoanHeaderTopLi2{
-	font-family: PingFangSC-Semibold;
-	font-size: 16px;
-	color: #000000;
-	letter-spacing: 0;
-	line-height: 16px;
-}
+    @import '../../../static/css/elitesLoan.css';
 </style>

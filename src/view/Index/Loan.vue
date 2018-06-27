@@ -91,89 +91,10 @@ export default {
   methods: {
   },
   created(){
-
+      $("body")[0].style.backgroundColor = "#f6f6f6";
   }
 }
 </script>
 <style rel="stylesheet/css" scoped>
-.loadSurround{
-	margin-bottom:140px;
-}
-.loadHeader{
-	background: #FFFFFF;
-	box-shadow: 0 0 10px 0 rgba(223,223,223,0.50);
-	height:100px;
-}
-.loadHeader>span{
-    font-family: PingFangSC-Medium;
-    font-size: 30px;
-    color: #222222;
-    letter-spacing: 0;
-    line-height: 30px;
-    padding-top: 50px;
-    display: block;
-    padding-left: 10px;
-}
-.loanTitle{
-	font-family: PingFangSC-Medium;
-	font-size: 14px;
-	color: #222222;
-	letter-spacing: 0;
-	padding-top: 3%;
-    padding-left: 4%;
-    display: block;
-}
-.companyLoad{
-	font-family: PingFangSC-Regular;
-	font-size: 13px;
-	color: #666666;
-	letter-spacing: 0;
-	padding-top:3.2%;
-	margin:3.2%;
-	background: #FFFFFF;
-	box-shadow: 0 5px 10px 0 rgba(153,153,153,0.06);
-	border-radius: 12px;
-}
-.companyLoad>div{
-    display: inline-block;
-	width:93.6%;
-	border-bottom: 1px solid #EAEAEA;
-	padding-top: 4.4%;
-    padding-bottom: 4.4%;
-	margin-left: 3.2%;
-}
-.companyLoadDivNoBoder{
-	border-bottom:none !important;
-}
-.companyLoad>div>img{
-	width:50px;
-	float: left;
-}
-.companyLoad>div>div>span{
-	display:block;
-}
-.companyLoad>div>div{
-	display:block;
-	max-width: 184px;
-    float: left;
-	margin-left: 3.2%;
-	margin-top: 2%;
-	line-height: 30px;
-}
-.companyLoad>div>input{
-	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
-	box-shadow: 0 3px 10px 0 rgba(254,206,21,0.60);
-	border:none;
-	position: absolute;
-    right: 8.2%;
-	border-radius: 15px;
-}
-
-.boldSpan{
-	font-family: PingFangSC-Regular;
-	font-size: 16px;
-	color: #222222;
-	letter-spacing: 0;
-	line-height: 16px;
-}
+    @import '../../../static/css/Loan.css';
 </style>

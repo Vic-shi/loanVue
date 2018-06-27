@@ -1,0 +1,306 @@
+#app>div{
+	min-height:100vh;
+}
+.mui-scroll{
+    width: 64vw !important;
+    margin-left: 18vw;
+}
+.repaymentDiv{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 2px;
+	line-height: 13px;
+	padding-left: 8vw;
+}
+.repaymentDivSpan{
+	font-family: DINAlternate-Bold;
+	font-size: 45px;
+	color: #222222;
+	letter-spacing: 2px;
+	line-height: 45px;
+	margin-top:2vw;
+}
+.repaymentDiv>span{
+	display:block;
+}
+.mui-clearfix{
+	margin-top:5vw;
+}
+.repaymentDiv2Li{
+	margin-top: 8vw;
+    display: inline-block;
+	padding-left: 8vw;
+}
+.repaymentDiv2Li>div{
+	width:40%;
+	float:left;
+	margin-bottom: 6vw;
+}
+.repaymentLongDiv{
+	width:50% !important;
+}
+.repaymentDiv2>div{
+	margin-top:8vw;
+	display: inline-block;
+	width: 100%;
+}
+.repaymentDiv2>div>div>li{
+	list-style:none;
+}
+.repaymentDiv2>div>div>li:before{
+	content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(34,34,34,0.9);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.noDian:before{
+    background-color: #f6f6f6 !important;
+}
+.noDian{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #F9A825;
+	letter-spacing: 0;
+	line-height: 13px;
+	padding-top: 8px;
+}
+.yellowBorderBlank{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	box-shadow: 0 10px 10px -10px #FECE15;
+	border-radius: 33px;
+	width:42vw !important;
+	text-align:center;
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #222222;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 13px;
+	height:13vw;
+	padding-top:3vw;
+	margin-top: 2vw;
+	margin-left: 5.8vw;
+    position: absolute;
+    top: -17vw;
+    right: 7vw;
+}
+.yellowBorderBlank>span{
+	display:block;
+}
+.blackDianDiv{
+	position: relative;
+    width: 70%;
+    text-align: right;
+    margin-left: 13%;
+}
+.blackDianDiv>span{
+	background-color:#222222;
+	display:block;
+	float: left;
+	border-radius:100px;
+	position:absolute;
+}
+.blackDian1{
+	width:2px;
+	height:2px;
+	left: 10%;
+    bottom: 4px;
+}
+.blackDian2{
+	width:4px;
+	height:4px;
+    left: 19%;
+    bottom: 3px;
+}
+.blackDian3{
+	width:6px;
+	height:6px;
+    left: 29%;
+    bottom: 2px;
+}
+.blackDian4{
+	width:8px;
+	height:8px;
+    left: 40%;
+    bottom: 1px;
+}
+.repaymentDiv2{
+	min-height: 34vh;
+	position:relative;
+}
+.repaymentDiv2Div{
+	position:absolute;
+	bottom:0;
+	height:34vh;
+	background-color:#ffffff;
+	padding-left:8.5%;
+	padding-right:8.5%;
+}
+.inputBorder{
+	border-radius: 78px;
+	border: 1px solid #DDDDDD;
+	width:100%;
+	height:6.6vh;
+}
+.inputBorder>input{
+	border:none;
+	outline:none;
+	margin-left:5%;
+	height:6vh;
+	font-family: DINAlternate-Bold;
+	font-size: 32px;
+	color: #222222;
+	letter-spacing: 4.27px;
+	line-height: 32px;
+	width:80%;
+}
+.inputBorderTop{
+	display:block;
+	font-family: PingFangSC-Regular;
+	font-size: 13px ;
+	color: #222222 ;
+	letter-spacing: 2px ;
+	line-height: 13px;
+    margin: 3vh 3vh 3vh 0;
+}
+.inputBorderBottom{
+	margin-top:2vh;
+}
+.inputBorderBottom>span{
+	display:block;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #999999;
+	letter-spacing: 0;
+	line-height: 21px;
+}
+.yellowButton{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	border-radius: 40px;
+	width:82.7%;
+	height:44px;
+    position: absolute;
+    bottom: 2vh;
+}
+.item1Class{
+	background-image:url('../image/loan/repay_xx_bg.png') !important;
+	background-size:100% !important;
+	background-repeat:no-repeat !important;
+	display: block;
+    float: left;
+	height:44px;
+	padding-top: 4vw !important;
+	width:28vw !important;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #A5A5A5 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 14px;
+	height: 6.6vh !important;
+	position: absolute;
+    left: 0;
+}
+.item2Class{
+	background-image:url('../image/loan/repay_bx_bg.png') !important;
+	background-size:100% !important;
+	background-repeat:no-repeat !important;
+	display: block;
+    float: right;
+	height:44px;
+	padding-top: 4vw !important;
+	width:28vw !important;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #A5A5A5 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 14px;
+	height: 6.6vh !important;
+	position: absolute;
+    right: 0;
+}
+.item1ClassActive{
+	background-image:url('../image/loan/repay_xx_pre_bg.png') !important;
+	background-size:100% !important;
+	background-repeat:no-repeat !important;
+	display: block;
+    float: left;
+	height:44px;
+	padding-top: 4vw !important;
+	width:39vw !important;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #000000 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 14px;
+	height: 6.6vh !important;
+	position: absolute;
+    left: 0;
+}
+.item2ClassActive{
+	background-image:url('../image/loan/repay_bx_pre_bg.png') !important;
+	background-size:100% !important;
+	background-repeat:no-repeat !important;
+	display: block;
+    float: right;
+	height:44px;
+	padding-top: 4vw !important;
+	width:39vw !important;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #000000 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 14px;
+	height: 6.6vh !important;
+	position: absolute;
+    right: 0;
+}
+.mui-active{
+	border-bottom:0 !important;
+}
+.mui-scroll-wrapper{
+	min-height:44px;
+	margin-top: 3vw;
+	height: 6.6vh !important;
+}
+.bigBlankDianDiv1{
+	width:140px;
+	height: 50px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 18px;
+	padding: 17px;
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	box-shadow: 0 10px 11px -7px rgba(254,206,21,0.83);
+	border-radius: 100px;
+	position:absolute;
+	bottom: 25vw;
+	right:3vw;
+}
+.bigBlackDian{
+	opacity: 0.9;
+	background: #222222;
+	height:14px;
+	width:14px;
+    display: block;
+    border-radius: 100px;
+	float: right;
+	margin-top:2px;
+}

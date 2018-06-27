@@ -1,0 +1,65 @@
+.recordValue{
+	background-image:url('../image/loan/money_bg_jyfrd.png');
+	background-size:100%;
+	height:35vw;
+	width:93.6vw;
+	background-repeat:no-repeat;
+	margin-left:3.2vw;
+	padding-top: 3vw;
+    padding-left: 3vw;
+	position:relative;
+}
+.recordYellowSpan{
+	float:right;
+    width: 18.7vw;
+	height:9vw;
+	background: #FECE15;
+	border-top-left-radius:61px;
+	border-bottom-left-radius:61px;
+	display:block;
+	text-align:center;
+	padding-top:6px;
+}
+.recordValueDiv2{
+	position:absolute;
+	bottom:14vw;
+	width: 90%;
+}
+.recordValueDiv3{
+	position:absolute;
+	bottom:7vw;
+	width: 90%;
+}
+.recordValueDiv1Span{
+	margin-top:1vw;
+	display:block;
+	float:left;
+}
+.recordValueDiv2>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 20px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 20px;
+	float:left;
+}
+.recordValueDiv3>span{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #666666;
+	line-height: 14px;
+	float:left;
+}
+.recordValueDiv2Right,.recordValueDiv3Right{
+	float:right !important;
+}
+.recordValue>div>span{
+	display:block;
+}
+.blankDiv{
+	height:3vw;
+}
+
+
+
+

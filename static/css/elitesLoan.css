@@ -1,3 +1,6 @@
+.elitesLoanHeader{
+	margin-bottom:40px;
+}
 .elitesLoanHeader>img{
 	width:100%;
 }
@@ -73,4 +76,162 @@
 	color: #000000;
 	letter-spacing: 0;
 	line-height: 16px;
+}
+.elitesLoanYellowSpan{
+	width:6px;
+	height:18px;
+	background: #FFDD00;
+	display: block;
+    float: left;
+}
+.elitesLoanLabel{
+	font-family: PingFangSC-Semibold;
+	font-size: 18px;
+	color: #4A4A4A;
+	letter-spacing: 0;
+	line-height: 18px;
+	float:left;
+	margin-left: 2.6%;
+}
+.elitesLoanDiv>img{
+	width:21px;
+	float:right;
+}
+.elitesLoanDiv{
+	padding-left:3.2%;
+	padding-right:3.2%;
+	min-height: 18px;
+	margin-bottom: 26px;
+}
+.elitesLoanDivBorder{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0;
+	line-height: 37px;
+	padding-left: 6.9%;
+    padding-right: 6.9%;
+    min-height: 18px;
+    margin-bottom: 26px;
+}
+.elitesLoanDivBorder2{
+	margin-bottom: 10px;
+}
+.elitesLoanDivBorder>span{
+	display:block;
+}
+.mui-navigate-right:after{
+	margin-left: 10px;
+	right: unset;
+}
+.mui-table-view{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #F9A825;
+	letter-spacing: 0;
+	line-height: 13px;
+	width: 93.6%;
+    margin-left: 3.2%;
+	background: #FFFFFF;
+	box-shadow: 0 5px 10px 0 #F0F0F0;
+	margin-bottom: 15%;
+}
+.mui-table-view:before{
+	height:0;
+}
+.mui-table-view:after{
+	height:0;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	background: #FFFFFF;
+	box-shadow: 0 5px 10px 0 #F0F0F0;
+	text-align:center;
+	border-bottom: 1px solid #F0F0F0;
+}
+.elitesLoanDiv2{
+	padding-left:3.2%;
+	padding-right:3.2%;
+	min-height: 18px;
+	margin-bottom: 20px;
+}
+.yellowColor{
+	color: #F9A825;
+}
+.mui-collapse-content{
+	padding-top:18px !important;
+}
+.mui-collapse-content>div>span>a{
+	font-family: PingFangSC-Semibold;
+	font-size: 13px;
+	color: #2A2A2A;
+	letter-spacing: 0;
+	line-height: 25px;
+}
+.oneBorderBottom{
+	border-top: 1px solid #EAEAEA;
+	min-height:	88px;
+}
+.oneBorderBottom>div>li{
+	width:31.2%;
+    float: left;
+	text-align:center;
+}
+.oneBorderBottomLi1{
+	font-family: PingFangSC-Light;
+	font-size: 14px;
+	color: #666666;
+	letter-spacing: 0;
+	line-height: 14px;
+	min-height:14px;
+}
+.oneBorderBottomLi2{
+	font-family: PingFangSC-Semibold;
+	font-size: 20px;
+	color: #FF7F40;
+	letter-spacing: 0;
+	line-height: 20px;
+	min-height:14px;
+	padding-top:15px;
+}
+.material{
+	
+}
+.material>div>span{
+	padding-left:7.5%;
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #666666;
+	letter-spacing: 0;
+	line-height: 25px;
+}
+.yellowButton{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	border-radius: 40px;
+	width:82.7%;
+	height:44px;
+	margin-left:8.68%;
+	margin-bottom: 20px;
+}
+#app>div{
+	min-height:100vh;
+}
+.alertSpan{
+	font-family: PingFangSC-Medium;
+	font-size: 13px;
+	color: #343434;
+	letter-spacing: 0;
+	line-height: 13px;
+	display:block;
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.alertDiv{
+	font-family: PingFangSC-Regular;
+	font-size: 13px;
+	color: #343434;
+	letter-spacing: 0;
+	line-height: 21px;
+	text-align:left;
 }

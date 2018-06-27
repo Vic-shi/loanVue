@@ -1,0 +1,222 @@
+.header{
+	font-family: PingFangSC-Semibold;
+	font-size: 17px;
+	color: #333333;
+	letter-spacing: -0.41px;
+	text-align: center;
+	height:48px;
+	background: #FFFFFF;
+	box-shadow: 0 0 5px 0 rgba(223,223,223,0.50);
+	padding:12px;
+}
+.headerImg1{
+	width:11px;
+	float:left;
+}
+.headerImg2{
+	width:20px;
+	float:right;
+}
+.MoneyChange{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.10);
+	border-radius: 12px;
+	width:93.3%;
+	height:52vw;
+	padding-top: 6.2vw;
+    padding-bottom: 6.2vw;
+	padding-left:5.2vw;
+	margin-left: 3.3%;
+	margin-top:6.6vw;
+}
+.MoneyChange>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 16px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 16px;
+	font-weight:bold;	
+	display:block;
+	margin-bottom: 3vw;
+}
+.MoneyChange>div{
+	border: 1px solid rgb(255,255,255,0.6);
+	border-radius: 2px;
+	width:82.7vw;
+	height:26.4vw;
+}
+.MoneyChange>div>label{
+	float: right;
+    padding-top: 10vw;
+    padding-right: 2vw;
+}
+.MoneyChange>div>a{
+	font-family: PingFangSC-Semibold;
+	font-size: 13px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 13px;
+	position: relative;
+    top: 4vw;
+	font-weight:bold;
+}
+.MoneyChange>div>input{
+
+}
+.MoneyChangeInput{
+	width: 50.3vw;
+    height: 13.4vw;
+	font-family: DINAlternate-Bold;
+	font-size: 40px;
+	color: #000000;
+	letter-spacing: 2px;
+	line-height: 45px;
+	font-weight:bold;
+	position: relative;
+    top: 5vw;
+	border: none;
+	background: none;
+}
+.single-slider{
+	width:82.7vw;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    border-radius: 10px; /*这个属性设置使填充进度条时的图形为圆角*/
+	position: relative;
+    top: 2vw;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+} 
+input[type=range]::-webkit-slider-runnable-track {
+    height: 15px;
+    border-radius: 10px; /*将轨道设为圆角的*/
+    box-shadow: 0 1px 1px #def3f8, inset 0 .125em .125em #0d1112; /*轨道内置阴影效果*/
+	border:none;
+	height:0;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    margin-top: -5px; /*使滑块超出轨道部分的偏移量相等*/
+    background: #ffffff; 
+    border-radius: 50%; /*外观设置为圆形*/
+    border: solid 0.125em rgba(205, 224, 230, 0.5); /*设置边框*/
+	background-image:url('../image/notice/money_scroll.png')
+}
+.yellowButton{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%);
+	border-radius: 40px;
+	width:82.7%;
+	height:44px;
+	margin-left:8.68%;
+	margin-bottom: 20px;
+}
+.yellowBorderButton{
+	margin-left:8.68%;
+	width:82.7%;
+	height:44px;
+	background: #FFFFFF;
+	border: 1px solid #FECE15;
+	border-radius: 100px;
+	margin-bottom:4vw;
+}
+.showMeg{
+	margin-top:4vw;
+}
+.mui-clearfix>div>div{
+	float:left;
+	width:48vw;
+	text-align:center;
+}
+.mui-clearfix>div>div>li{
+	list-style:none;
+}
+.mui-clearfix>div>div>li:before{
+    content: '';
+    opacity: 0.9;
+    background: #222222;
+    width: 9px;
+    height: 9px;
+    display: block;
+    left: 9vw;
+    position: relative;
+    top: 3.5vw;
+    border-radius: 100px;
+}
+.noLi:before{
+	background: #f6f6f6 !important;
+}
+#item1{
+	margin-top:5vw;
+}
+.allButton{
+	width:100vw;
+	margin-top: 34px;
+}
+.alertSpan{
+	font-weight:bold;
+}
+.alertDiv{
+	text-align:left;
+	margin-top: 21px;
+    margin-bottom: 10px;
+}
+.mui-scroll{
+	width:97vw !important;
+	background: #FFFFFF;
+	border-radius: 12px;
+	height:19.8vw !important;
+}
+.mui-scroll-wrapper{
+	width:97vw !important;
+	border-radius: 12px;
+	margin-left:1.5vw;
+	height:24.8vw !important;
+	padding-top: 10px;
+}
+.mui-scroll>a{
+	height:22.8vw !important;
+	line-height: 28px !important;
+	padding-top: 10px !important;
+}
+.mui-active{
+	background-image: linear-gradient(-90deg, #FCDF07 0%, #FECD15 100%) !important;
+	box-shadow: 0 0 9px 0 rgba(254,206,21,0.78);
+	border-radius: 8px;
+	background-color:#FECD15;
+	font-size: 20px;
+	color: #000000 !important;
+	border-bottom:none !important;
+	position: relative;
+    top: -2vw;
+}
+.alertHtml{
+	text-align:center;width:93vw;border-radius: 12px;background: #FFFFFF;height: 114vw;
+}
+.alertHtmlHeader{
+	height:24vw;border-bottom:1px solid #ccc;
+}
+.alertHtmlHeader>div{
+	width: 45vw;float: left;
+}
+.alertHtmlHeader1{
+	border-right:1px solid #ccc;
+}
+.alertHtmlHeader>div>span{
+	display: block;
+}
+.alertHtmlSpan{
+	display:inline-block;text-align:left;
+}
+.alertTable{
+	width:100vw;
+}
+.alertHtml>div>img{
+	width:36px;
+}

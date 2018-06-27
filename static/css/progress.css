@@ -1,0 +1,98 @@
+body{
+	background: #FFFFFF !important;
+}
+.progressBottomDiv1{
+	height:13.2vw;
+	background: #FFFFFF;
+	font-family: PingFangSC-Semibold;
+	font-size: 14px;
+	color: #222222;
+	letter-spacing: 0;
+	line-height: 14px;
+	border-bottom: 1px solid #EAEAEA;
+}
+.progressBottomDiv1>span{
+	display:block;
+	padding-top: 5vw;
+	float:left;
+	padding-left:3vw;
+}
+.progressBottomDiv1Span2{
+	float:right !important;
+	padding-right:3vw;
+	padding-left:0 !important;
+}
+.progressBottomBottom2{
+	min-height:50vh;
+	background-color:#ffffff;
+}
+.progressBottomBottom2>span{
+	float:left;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 14px;
+	margin-left:3vw;
+	margin-top:5vw;
+}
+.progressBottomBottom2>table{
+	width:70vw;
+	float:right;
+}
+.progressBottomBottom2>table>tr>td{
+	height:15vw;
+}
+.swiper-slide>div>img{
+	width:205.8px;
+}
+.swiper-slide{
+	width:70vw !important;
+	margin-left: 14vw;
+}
+.swiper-slide>div{
+	background-image:url('../image/loan/apply_bg.png');
+	background-size: 100%;
+	height:50vw;
+	background-repeat:no-repeat;
+	width:54vw;
+}
+.swiper-slide>div>div>span{
+	display:block;
+	text-align:center;
+}
+.swiper-slide>div>div{
+    padding-top: 16vw;
+}
+.elitesLoanYellowSpan{
+	width:6px;
+	height:18px;
+	background: #FFDD00;
+	display: block;
+    float: left;
+}
+.elitesLoanLabel{
+	font-family: PingFangSC-Semibold;
+	font-size: 18px;
+	color: #4A4A4A;
+	letter-spacing: 0;
+	line-height: 18px;
+	float:left;
+	margin-left: 2.6%;
+}
+.elitesLoanDiv>img{
+	width:21px;
+	float:right;
+}
+.elitesLoanDiv{
+	padding-left:3.2%;
+	padding-right:3.2%;
+	min-height: 18px;
+	margin-bottom: 26px;
+	margin-top:5vw;
+}
+.swiper-pagination{
+	width: 25vw;
+    position: unset;
+    float: right;
+}

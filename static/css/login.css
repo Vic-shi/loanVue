@@ -1,0 +1,246 @@
+.title{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(245,245,245);
+}
+.mui-card{
+    top: -17px;
+    margin: 0;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+}
+.mui-input-group{
+    margin-top: 46px;
+}
+.mui-input-group .mui-button-row{
+    height: auto;
+    padding-top: 67px;
+}
+.mui-btn-primary{
+    width: 83%;
+    border-radius: 22px;
+    font-size: 15px;
+    padding: 11px 0;
+    border: 1px solid rgb(212,212,212);
+    background: rgb(212,212,212);
+    color: rgb(170,170,170);   
+}
+.mui-btn-primary:hover{
+    background: linear-gradient(to right, rgb(252,223,7) , rgb(254,205,21));
+    border: 1px solid rgb(253,223,8);
+    color: rgb(34,34,34);
+}
+.link-area{
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
+}
+.link-area a{
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    color: rgb(34,34,34);
+    line-height: 35px;
+}
+.clear{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 29px;
+    width: 17px;
+    height: 17px;
+    background: url(../image/index/clear.png) no-repeat;
+    background-size: 100% 100%;
+}
+.eyes-open{
+    position: absolute;
+    right: 0;
+    top: 28px;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    background: url(../image/index/showPsd.png) no-repeat;
+    background-size: 100% 100%;
+}
+.eyes-close{
+    position: absolute;
+    right: 0;
+    top: 28px;
+    display: inline-block;
+    width: 22px;
+    height: 26px;
+    background: url(../image/index/hidePsd.png) no-repeat;
+    background-size: 100% 100%;
+}
+.error{
+    color: rgb(255,0,0);
+}
+
+/*输入框动画特效*/
+.input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 auto;
+    width: 82.6%;
+    vertical-align: top;
+}
+.input__field {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0.8em;
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+.input__field:focus {
+    outline: none;
+}
+.input__label {
+    display: inline-block;
+    float: right;
+    padding: 0 1em;
+    width: 40%;
+    color: rgb(153,153,153);
+    font-size: 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.input__label-content {
+    position: relative;
+    display: block;
+    padding: 1.3em 0;
+    width: 100%;
+}
+
+/* Hoshi */
+.input--hoshi {
+    overflow: hidden;
+}
+.input__field--hoshi {
+    margin-top: 1.5em;
+    padding: 0.15em 0.15em .85em;
+    width: 100%;
+    background: transparent;
+    font-size: 15px; 
+    color: rgb(34,34,34); 
+}
+.input__label--hoshi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.25em;
+    width: 100%;
+    height: calc(100% - 1em);
+    text-align: left;
+    pointer-events: none;
+}
+.input__label-content--hoshi {
+    position: absolute;
+}
+.input__label--hoshi::before,
+.input__label--hoshi::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 10px);
+    border-bottom: 1px solid rgb(234,234,234);
+}
+.input__field--hoshi:focus + .input__label--hoshi::after,
+.input--filled .input__label--hoshi::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.input__field--hoshi:focus + .input__label--hoshi .input__label-content--hoshi,
+.input--filled .input__label-content--hoshi {
+    -webkit-animation: anim-1 0.3s forwards;
+    animation: anim-1 0.3s forwards;
+}
+@-webkit-keyframes anim-1 {
+    50% {
+        opacity: 0;
+        -webkit-transform: translate3d(1em, 0, 0);
+        transform: translate3d(1em, 0, 0);
+    }
+    51% {
+        opacity: 0;
+        -webkit-transform: translate3d(-1em, -40%, 0);
+        transform: translate3d(-1em, -40%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -40%, 0);
+        transform: translate3d(0, -40%, 0);
+    }
+}
+@keyframes anim-1 {
+    50% {
+        opacity: 0;
+        -webkit-transform: translate3d(1em, 0, 0);
+        transform: translate3d(1em, 0, 0);
+    }
+    51% {
+        opacity: 0;
+        -webkit-transform: translate3d(-1em, -40%, 0);
+        transform: translate3d(-1em, -40%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -40%, 0);
+        transform: translate3d(0, -40%, 0);
+    }
+}
+
+/*注册1*/
+.line-checkbox{
+    margin: 43px auto 0;
+    width: 82.6%;
+    font-size: 14px;
+    color: rgb(153,153,153);
+    line-height: 20px;
+}
+.line-checkbox .check-icon{
+    float: left;
+    margin: 3px 2px 0 0;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+.line-checkbox .icon-yes{
+    background: url("../image/index/check-icon-yes.png") no-repeat;
+    background-size: 100% 100%;
+}
+.line-checkbox .icon-no{
+    background: url("../image/index/check-icon-no.png") no-repeat;
+    background-size: 100% 100%;
+}
+.line-checkbox #read_{
+/*    margin: 0 0 0 14px;*/
+}
+.line-checkbox a#dialog-show{
+    color: rgb(34,34,34);
+}
+
+/*注册3*/
+.tips{
+    font-size: 14px;
+    color: rgb(153,153,153);
+    margin-top: 62px;
+}
+.button_reg{
+    padding-top: 46px!important;
+}
